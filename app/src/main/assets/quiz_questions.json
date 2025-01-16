@@ -1,0 +1,106 @@
+{
+  "Animals": [
+    {
+      "question": "What is this animal?",
+      "answer": "Lion",
+      "image": "lion"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Elephant",
+      "image": "elephant"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Tiger",
+      "image": "tiger"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Dog",
+      "image": "dog"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Cat",
+      "image": "cat"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Penguin",
+      "image": "penguin"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Panda",
+      "image": "panda"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Dolphin",
+      "image": "dolphin"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Kangaroo",
+      "image": "kangaroo"
+    },
+    {
+      "question": "What is this animal?",
+      "answer": "Chicken",
+      "image": "chicken"
+    }
+  ],
+  "Cartoons": [
+    {
+      "question": "Who is the main character of 'SpongeBob SquarePants'?",
+      "options": ["SpongeBob", "Patrick", "Squidward"],
+      "answer": "SpongeBob"
+    },
+    {
+      "question": "Who is the main character of 'Batman Beyond'?",
+      "options": ["Superman", "Batman", "Captain America"],
+      "answer": "Batman"
+    },
+    {
+      "question": "Who is the main character of 'Dora the Explorer'?",
+      "options": ["Boots", "Dora", "Diego"],
+      "answer": "Dora"
+    },
+    {
+      "question": "Who is the main character of 'Peppa Pig'?",
+      "options": ["Mummy Pig", "Daddy Pig", "Peppa Pig"],
+      "answer": "Peppa Pig"
+    },
+    {
+      "question": "Who is the main character of 'Ben 10'?",
+      "options": ["Ben Tennyson", "Gwen Tennyson", "Grandpa Max"],
+      "answer": "Ben Tennyson"
+    },
+    {
+      "question": "Who is the main character of 'Avatar the Last Air Bender'?",
+      "options": ["Aang", "Appa", "Sokka"],
+      "answer": "Aang"
+    },
+    {
+      "question": "Who is the main character of 'Bluey'?",
+      "options": ["Frisky", "Bingo", "Bluey"],
+      "answer": "Bluey"
+    },
+    {
+      "question": "Who is the main character of 'Winnie the Pooh'?",
+      "options": ["Winnie the Pooh", "Piglet", "Tigger"],
+      "answer": "Winnie the Pooh"
+    },
+    {
+      "question": "Who is the main character of 'Garfield and Friends'?",
+      "options": ["Jon", "Garfield", "Odie"],
+      "answer": "Garfield"
+    },
+    {
+      "question": "Who is the main character of 'Bob the Builder'?",
+      "options": ["Bob the Builder", "Farmer Pickles", "Scoop"],
+      "answer": "Bob the Builder"
+    }
+  ]
+}

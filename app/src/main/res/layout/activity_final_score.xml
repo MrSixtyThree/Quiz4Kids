@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalScoreActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/output_final"
+        android:layout_width="301dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/border"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/another_quiz_label"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Attempt another quiz?"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output_final" />
+
+    <Button
+        android:id="@+id/animals_button"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Animals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/another_quiz_label" />
+
+    <Button
+        android:id="@+id/cartoons_button"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Cartoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/another_quiz_label" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        android:text="Main Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartoons_button" />
+
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="115dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/coral"
+        android:text="Log Out"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animals_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

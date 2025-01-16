@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz for Kids</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_register">Register a new account</string>
+    <string name="register">Register</string>
+    <string name="return_to_login">Return to login</string>
+    <string name="main_help">Quiz Help</string>
+    <string name="return_to_main">Return to Main Menu</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="choose_category">Choose a quiz category!</string>
+    <string name="help_string">Welcome to the Quiz for Kids App!\nBegin by selecting a desired category from the previous page. Simply input your answer into the text box or select the your answer from the options in the case of multiple choice. Navigation between questions back and forth is possible with the numbers at the top.</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/login_sign_in"
+        android:layout_width="326dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/choose_quiz_label"
+        android:layout_width="326dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/choose_category"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <Button
+        android:id="@+id/animals_button"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:text="Animals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_sign_in" />
+
+    <Button
+        android:id="@+id/cartoons_button"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:text="Cartoons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_sign_in" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="331dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:contentDescription="List of Previous Attempts"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartoons_button">
+
+        <LinearLayout
+            android:id="@+id/container_attempts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/coral"
+        android:text="Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scroll_view" />
+
+    <Button
+        android:id="@+id/category_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/coral"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scroll_view" />
+
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="127dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:text="Log Out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

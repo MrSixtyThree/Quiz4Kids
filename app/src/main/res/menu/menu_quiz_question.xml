@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/question_one_button"
+        android:title="Question One"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_one"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/question_two_button"
+        android:title="Question Two"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_two_gray"
+        android:orderInCategory="2" />
+
+    <item
+        android:id="@+id/question_three_button"
+        android:title="Question Three"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_three_gray"
+        android:orderInCategory="3" />
+
+    <item
+        android:id="@+id/question_four_button"
+        android:title="Question Four"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_four_gray"
+        android:orderInCategory="4" />
+
+</menu>
